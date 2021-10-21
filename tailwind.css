@@ -188475,3 +188475,8 @@ background:#f7f7f7;
 .radioActive i{
   display:block;
 }
+
+.hr{
+  height:1px;
+  opacity:0.5;
+}

@@ -17,3 +17,31 @@
 
 
    
+
+
+
+.select-wrapper {
+  position: relative;
+  padding: 0;
+  background: #fff;
+}
+
+
+
+.select-wrapper select {
+  padding:0 10px;
+  white-space: nowrap;
+  background-color: white;
+  overflow: hidden;
+  background: none;
+  width: 100%;
+  padding-right: 30px;
+  height: 47px;
+  border: 1px solid silver;
+  display: block;
+  outline: none;
+  
+
+}
+
+
