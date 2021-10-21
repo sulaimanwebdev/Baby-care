@@ -26,6 +26,19 @@
   background: #fff;
 }
 
+.select-wrapper::after {
+  content: "";  /* this is your text. You can also use UTF-8 character codes as I do here */
+width: 20px;
+height: 20px;
+background-position: center;
+background-size: cover;
+background-image: url('https://icons.veryicon.com/png/o/internet--web/prejudice/down-arrow-5.png');
+  right:10px;
+  position:absolute;
+
+  top:15px;
+}
+
 
 
 .select-wrapper select {
@@ -35,13 +48,174 @@
   overflow: hidden;
   background: none;
   width: 100%;
+  cursor: pointer;
   padding-right: 30px;
   height: 47px;
   border: 1px solid silver;
   display: block;
   outline: none;
-  
+  -webkit-appearance: none;
+  appearance: none;
 
 }
 
 
+.grid2{
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+
+.grid3{
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.grid3 input{
+  background-color: white;
+  border: 1px solid silver;
+  height: 47px;
+padding-left: 10px;
+  outline: none;
+
+}
+
+.passwordCont{
+  background-color: white;
+  border: 1px solid silver;
+  height: 47px;
+  padding: 0 10px;
+  outline: none;
+}
+
+.passwordCont input{
+  background-color: transparent;
+  border: none;
+  height: 100%;
+  padding-left: 0;
+  width: 100%;
+}
+
+
+.eye{
+  height: 100%;
+  border-left: 1px solid silver;
+padding-left: 10px;  
+cursor: pointer;
+}
+
+.grid3 button{
+  height: 47px;
+}
+.mobCart{
+  display: none;
+}
+.burger{
+  font-size: 32px;
+  cursor: pointer;
+  display: none !important;
+}
+.mobCart img{
+  width: 30px;
+}
+@media (max-width:947px){
+  .mobCart{
+    display: block;
+    
+  }
+
+  .burger{
+    display:block !important;
+  }
+  .navde1{
+    display: none !important;
+  }
+
+  .navde2{
+    display: none !important;
+  }
+}
+
+.panel{
+  padding: 0 30px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 444;
+  width: 100%;
+  border-bottom: 1px solid rgb(212, 212, 212);
+  transition: 0.3s ease-in-out;
+  transform: translateY(-100%);
+}
+
+.close{
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  font-size: 33px;
+}
+
+.activePanel{
+  transform: translateY(0%) !important;
+
+}
+
+@media (max-width:909px){
+  .grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr !important;
+  }
+}
+
+@media (max-width:911px){
+  .ddGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr !important;
+  }
+}
+
+@media (max-width:525px){
+  .grid{
+    display: grid;
+    grid-template-columns: 1fr !important;
+  }
+}
+
+@media (max-width:475px){
+  .logo img{
+    width: 130px !important;
+  }
+.main h1{
+  font-size: 25px !important;
+}
+
+.main h2{
+  font-size: 25px !important;
+}
+  .burger{
+    font-size: 28px !important;
+  }
+
+  .mobCart img{
+    width: 26px;
+  }
+}
+
+.err{
+  display: none;
+}
+.showerror{
+  display: flex !important;
+}
+
+.colorRed{
+color: red !important;
+}
+.err{
+  color: red;
+}
+
+.lefborderEye{
+  border-left: 2px solid red !important;
+
+}
