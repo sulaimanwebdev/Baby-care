@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "Maax";
+    src: url("Maax_-_Regular-205TF.woff2");
+    font-weight: normal;
+  }  
+  
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Maax', sans-serif;
+  }
+
+  body{
+      overflow-x: hidden;
+    }
+
+
+   

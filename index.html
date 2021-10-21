@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.11.1/css/all.css">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="tailwind.css">
+    <title>Baby List</title>
+</head>
+<body>
+
+    <div class="parent py-5 bg-white newShadow">
+        <div class="child flex items-center justify-between">
+            <nav class="flex gap-10 font-bold customnavcolro">
+                <a href="#" class="active">Registry</a>
+                <a href="#">Store</a>
+                <a href="#">Guides</a>
+
+            </nav>
+         <div class="logo"><a href="#"><img src="images/logo.png" alt="" class="w-33"></a></div>
+         <nav class="flex gap-10 font-bold customnavcolro">
+            <a href="#">Help</a>
+            <a href="#">Sign Up</a>
+            <a href="#">Log In</a>
+            <a href="#"><img src="data:image/svg+xml;utf8,<?xml%20version=%221.0%22%20encoding=%22UTF-8%22?%3E%3Csvg%20width=%2224px%22%20height=%2224px%22%20viewBox=%220%200%2024%2024%22%20version=%221.1%22%20xmlns=%22http://www.w3.org/2000/svg%22%20xmlns:xlink=%22http://www.w3.org/1999/xlink%22%3E%3Cg%20id=%22Symbols%22%20stroke=%22none%22%20stroke-width=%221%22%20fill=%22none%22%20fill-rule=%22evenodd%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22%3E%3Cg%20transform=%22translate(-1530.000000,%20-27.000000)%22%20stroke=%22%2300B496%22%20stroke-width=%222%22%3E%3Cg%20id=%22Cart%22%20transform=%22translate(1531.000000,%2028.000000)%22%3E%3Cpolygon%20points=%221.83375%207.53925%200%2021.9045%2021.361%2021.9045%2018.848%207.53925%22%3E%3C/polygon%3E%3Cpath%20d=%22M6.145625,10.221%20L6.145625,3.82225%20C6.145625,3.82225%205.909625,0%2010.341125,0%20C14.772625,0%2014.941375,3.82225%2014.941375,3.82225%20L14.941375,10.221%22%20id=%22Stroke-3%22%3E%3C/path%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E" alt=""></a>
+        </nav>
+        </div>
+    </div>
+
+   <div class="main text-center">
+    <h1 class=" text-black text-center text-3xl">The road ahead is filled with adventure. How will yours begin?</h1>
+      <div class="grid mt-9 grid-cols-4 text-center gap-4">
+          <label class="flex rounded-lg aaCh bg-white py-10 gap-8 radio-custom items-center justify-center flex-col" for="pregnancy">
+            <i class="fas fa-check-circle"></i>  
+            <img src="images/pregnancy.svg" alt="">
+              <p>Pregnancy</p>
+          </label>
+          <input value="true" class="hidden" type="radio" name="Radio Selected" id="pregnancy">
+
+          <label class="flex aaCh rounded-lg bg-white py-10 gap-8 radio-custom items-center justify-center flex-col" for="adoption">
+            <i class="fas fa-check-circle"></i>
+            <img src="images/adoption.svg" alt="">
+            <p>Adoption</p>
+          </label>
+          <input value="true" class="hidden" type="radio" name="Radio Selected" id="adoption">
+
+          <label class="flex aaCh rounded-lg bg-white py-10 gap-8 radio-custom items-center justify-center flex-col" for="surrogacy">
+            <i class="fas fa-check-circle"></i>
+            <img src="images/surrogacy-2.svg" alt="">
+            <p>Surrogacy</p>
+          </label>
+          <input value="true" class="hidden" type="radio" name="Radio Selected" id="surrogacy">
+
+          <label class="flex aaCh rounded-lg bg-white py-10 gap-8 radio-custom items-center justify-center flex-col" for="stilltrying">
+            <i class="fas fa-check-circle"></i>
+            <img src="images/stilltrying-2.svg" alt="">
+            <p>Still Trying</p>
+          </label>
+          <input value="true" class="hidden" type="radio" name="Radio Selected" id="stilltrying">
+
+
+      </div>
+
+
+
+      <img src="images/hands.svg" alt="" class="mx-auto mt-14">
+     <h2>Congratulations!</h2>
+     <h2>Adoption is an amazing journey.</h2>
+
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
