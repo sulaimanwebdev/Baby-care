@@ -46,6 +46,8 @@ background-image: url('https://icons.veryicon.com/png/o/internet--web/prejudice/
   white-space: nowrap;
   background-color: white;
   overflow: hidden;
+  position: relative;
+  z-index: 12312;
   background: none;
   width: 100%;
   cursor: pointer;
